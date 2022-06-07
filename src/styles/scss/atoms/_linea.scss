@@ -1,0 +1,9 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-linea {
+  @include mixins.main_container(center,space-around);
+  flex-wrap: nowrap;
+  width: 100%;
+  border-bottom: 5px solid variables.$backgroundColor-primary;
+}

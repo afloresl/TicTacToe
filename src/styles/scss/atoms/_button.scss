@@ -1,0 +1,9 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-button {
+  padding: 1rem;
+  border-radius: 15px;
+  background-color: variables.$button-reset;
+  color: variables.$primary-text;
+}

@@ -1,0 +1,25 @@
+// Generic
+@use "generic/normalize";
+@use "generic/reset";
+
+
+//orginisms
+@use "organisms/hoja";
+
+//molecules
+@use "molecules/tablero";
+
+//atoms
+@use "atoms/celda";
+@use "atoms/bordeDer";
+@use "atoms/linea";
+@use "atoms/title";
+@use "atoms/button";
+@use "atoms/marcador";
+
+// Utilities
+@use "utilities/is-centered";
+
+@use "utilities/is-hidden";
+@use "utilities/is-overflow";
+

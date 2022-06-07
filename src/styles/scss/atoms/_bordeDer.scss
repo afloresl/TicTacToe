@@ -1,0 +1,6 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-borderDer {
+  border-right: 5px solid variables.$backgroundColor-primary;
+}

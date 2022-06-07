@@ -1,0 +1,22 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.g-hoja {
+  @include mixins.main_container_color(center,center,variables.$backgroundColor-primary);
+  min-height: calc(100vh);
+}
+
+@media (max-width: 400px) {
+  .g-hoja {
+    .m-tablero {
+      width: 100%;
+    }
+
+    .a-title {
+      p{
+      font-size: variables.$fs-text-xs;
+      }
+    }
+
+  }
+}

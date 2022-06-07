@@ -1,0 +1,9 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-title {
+  padding-top: 1rem;
+  color: variables.$primary-text;
+  text-align: center;
+  font-size: variables.$fs-title-m;
+}

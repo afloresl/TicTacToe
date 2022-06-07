@@ -1,0 +1,43 @@
+@mixin main_container($vertical-align: center, $horizontal-align: center)
+{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: $vertical-align;
+  justify-content: $horizontal-align;
+}
+
+@mixin secondary_container($vertical-align: center, $horizontal-align: center)
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: $vertical-align;
+  justify-content: $horizontal-align;
+}
+
+@mixin main_container_color($vertical-align: center, $horizontal-align: center, $background-color)
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: $vertical-align;
+  justify-content: $horizontal-align;
+  background-color: $background-color;
+}
+
+@mixin secondary_container_color($vertical-align: center, $horizontal-align: center, $background-color)
+{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: $vertical-align;
+  justify-content: $horizontal-align;
+  background-color: $background-color;
+}
+
+@mixin background_container($background-image)
+{
+  background-image: url($background-image);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

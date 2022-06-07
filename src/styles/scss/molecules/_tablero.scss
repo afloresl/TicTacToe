@@ -1,0 +1,12 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.m-tablero {
+  @include mixins.secondary_container();
+  width: 40%;
+  height: 40%;
+  margin: 1rem 10%;
+  background-color: variables.$tablero;
+}
+
+

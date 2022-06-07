@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Typography scale
+$fs-base: 16;
+
+$_fs-11: 11 / $fs-base + rem;
+$_fs-12: 12 / $fs-base + rem;
+$_fs-14: 14 / $fs-base + rem;
+$_fs-17: 17 / $fs-base + rem;
+$_fs-19: 19 / $fs-base + rem;
+$_fs-25: 25 / $fs-base + rem;
+$_fs-33: 33 / $fs-base + rem;
+$_fs-44: 44 / $fs-base + rem;
+$_fs-55: 55 / $fs-base + rem;
+
+// Typography applications
+
+$fs-btn: $_fs-14;
+
+$fs-title-s: $_fs-25;
+$fs-title-xs: $_fs-17;
+$fs-title-m: $_fs-33;
+$fs-title-l: $_fs-44;
+$fs-title-xl: $_fs-55;
+
+$fs-text-xs: $_fs-11;
+$fs-text-s: $_fs-14;
+$fs-text-m:$_fs-19;

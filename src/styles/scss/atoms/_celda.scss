@@ -1,0 +1,13 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-celda {
+  @include mixins.secondary_container();
+  flex: 1;
+  cursor: pointer;
+  text-align: center;
+  background-color: variables.$tablero;
+  min-height: 3rem;
+  min-width: 3rem;
+  padding: 1rem 0;
+}

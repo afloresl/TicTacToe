@@ -1,0 +1,11 @@
+@use "../settings/variables";
+@use "../tools/mixins";
+
+.a-marcador {
+  text-align: center;
+  color: variables.$marcador;
+  border-radius: 15px;
+  border: 2px solid variables.$marcador;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
